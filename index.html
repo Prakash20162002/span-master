@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style5.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header1">
+        <div class="weblogo">
+            <img src="images/aorus-logo (1).png" alt="">
+        </div>
+        <div class="wish-compare-cart">
+            <div class="wcc wish">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="wcc compare">
+                <i class="fa-solid fa-code-compare"></i>
+            </div>
+            <div class="wcc cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="user-profile">
+                <samp class="myaccount">My Account</samp>
+                <img src="images/profile.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="header2">
+        <div class="open-nav-menu">
+            <span></span>
+        </div>
+        <div class="mobview view-menu">
+            <i class="fa-solid fa-bars" id="myicon"style="color: #000000;"></i>
+        </div>
+        <div class="catagori-box">
+            <div class="cat-icon">
+                <div class="dot-and-line">
+                    <div id="circule"></div>
+                    <div id="line"></div>
+                </div>
+                <div class="dot-and-line">
+                    <div id="circule"></div>
+                    <div id="line"></div>
+                </div>
+                <div class="dot-and-line">
+                    <div id="circule"></div>
+                    <div id="line"></div>
+                </div>
+            </div>
+            <div class="cat-icon-details">
+                <span class="browser-catagorey">Browse Categories</span>
+                <i class="fa-solid fa-angle-right fa-rotate-90" style="color: #000000;"></i>
+            </div>
+            <div class="categorey-box">
+                <a href=""><img src="images/cpu-150x150.png" alt="">&nbsp;Processor<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/motherboard-3-150x150.png" alt="">&nbsp;Mother board<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/cabinet-150x150.png" alt="">&nbsp;PC Cabinet<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/graphics-card-150x150.png" alt="">&nbsp;Graphics card<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/fan-150x150.png" alt="">&nbsp;CPU Cooler<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/ssd-drive-150x150.png" alt="">&nbsp;SSD<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/ram-3-150x150.png" alt="">&nbsp;RAM<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/power-supply-1-150x150.png" alt="">&nbsp;Power Supply<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/mouse-3-150x150.png" alt="">&nbsp;Mouse<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/keyboard-3-150x150.png" alt="">&nbsp;Keyboard<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+                <a href=""><img src="images/motherboard-3-150x150.png" alt="">&nbsp;Headset<i
+                        class="rarr fa right-arrow fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="close-nav-menu">
+            <i class='bx bx-x' style='color:#ad1e23'></i>
+        </div>
+        <div class="menu-overlay">
+        </div>
+        <ul class="navber-ul">
+            <li class="navber-ul-li"><a class="navber-ul-li-a" href="">Home</a></li>
+            <li class="navber-ul-li">
+                <div class="dropdown-content" style="left:0;">
+                    <a href="#">Gaming Monitor</a>
+                    <a href="#">Gaming Cabinat</a>
+                    <a href="#">Gaming Keyboard</a>
+                    <a href="#">Gaming Mouse</a>
+                    <a href="#">Gaming Headset</a>
+                    <a href="#">Gaming Mousepad</a>
+                </div>
+                <a class="navber-ul-li-a" href="">Gaming Zone<i class="fa down-fa fa-angle-down"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li class="navber-ul-li">
+                <div class="dropdown-content" id="for-Peripheral" style="left:0;">
+                    <a href="#">Joystick</a>
+                    <a href="#">Webcam</a>
+                    <a href="#">HDMI cable</a>
+                    <a href="#">VGA cable</a>
+                    <a href="#">Speaker</a>
+                </div>
+                <a class="navber-ul-li-a" href="">Peripheral<i class="fa down-fa fa-angle-down"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li class="navber-ul-li">
+                <div class="dropdown-content" id="for-perbuilt" style="left:0;">
+                    <a href="#">Intel Setup</a>
+                    <a href="#">Ryzen Setup</a>
+                    <a href="#">1650 Setup</a>
+                    <a href="#">3050 Setup</a>
+                </div>
+                <a class="navber-ul-li-a" href="">Pre Built PC<i class="fa down-fa fa-angle-down"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li class="navber-ul-li"><a class="navber-ul-li-a" href="">Custom PC</a></li>
+            <li class="navber-ul-li"><a class="navber-ul-li-a" href="">Explore</a></li>
+        </ul>
+        
+        <div class="searchbar">
+            <form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..">
+                <button type="submit" class="searchbar-btn">Search</button>
+            </form>
+        </div>
+        <div class="mobview view-user">
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+        </div>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/Poster1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/Poster2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/Poster3.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <section class="Top-categories-of-the-month">
+        <div class="Top-categories-of-the-month-heading">
+            <h1>Top Categories Of The Month</h1>
+            <div>
+                <span class="catagories-arrow prv-catagories-arrow">❮</span>
+                <span class="catagories-arrow next-catagories-arrow">❯</span>
+            </div>
+        </div>
+        <div class="Top-categories-of-the-month-image-main-box">
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/amd_ryzen_3_3200g_3rd_gen_processor_4mb_cache_4.00ghz_tray_pack_1_.png" alt="">
+                <p>Processor</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/h525.png" alt="">
+                <p>Motherboard</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/MAGNET.png" alt="">
+                <p>PC Cabinet</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/Corsair-Dominator-Platinum-Rgb-32GB-2x16GB-Ddr5-Dram-7000MHz-C34-Desktop-Ram-1.webp"
+                    alt="">
+                <p>RAM</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/20201028111930.png" alt="">
+                <p>Graphics card</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/wd-green-ssd-240gb-left.png.thumb.1280.1280.png" alt="">
+                <p>SSD</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/500.png" alt="">
+                <p>CPU Cooler</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/K599.webp" alt="">
+                <p>Keyboard</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/basilisk-v3_500x500.png" alt="">
+                <p>Mouse</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/mh650-380x380-1-hover.png" alt="">
+                <p>Headset</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+            <div class="Top-categories-of-the-month-image-box">
+                <img src="images/KCAS-Plus-Gold-750W-Infographics-01__77431.webp" alt="">
+                <p>Power Supply</p>
+                <p id="Show-Now_popup">SHOP NOW</p>
+                <div class="Show-Now_popup-line"></div>
+            </div>
+        </div>
+    </section>
+    <!-- stock effect -->
+    <section class="home-sela">
+        <div class="home-stock-1">
+            <span>Stock Added<i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></span>
+        </div>
+        <div class="home-stock-del1 home-stock-1">
+            <span>Stock Added<i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></span>
+        </div>
+        <div class="home-stock-del2 home-stock-1">
+            <span>Stock Added<i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></span>
+        </div>
+    </section>
+    <!-- product slider -->
+    <div class="maincontainer">
+        <div class="maincontainer-image">
+            <img src="images/7.webp">
+        </div>
+        <div class="nav-slider">
+            <div class="navbar">
+                <h1>INTEL</h1>
+                <ul>
+                    <li><a href="#" style="color: black;">FEATURE</a></li>
+                    <li><a href="#">Intel I3</a></li>
+                    <li><a href="#">Intel I5</a></li>
+                    <li><a href="#">Intel I7</a></li>
+                    <li><a href="#">Intel I9</a></li>
+                </ul>
+            </div>
+            <section class="slider">
+                <button class="pre-btn">&#155;</button>
+                <button class="nxt-btn">&#155;</button>
+                <div class="slider-container">
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="badge">30% off</div>
+                        <div class="badge-wish fade"><i class="fa-solid fa-heart"></i></div>
+                        <div class="product-tumb">
+                            <img src="images/intel-core-i7-11700kf-processor-1000x1000.webp" alt="">
+                        </div>
+                        <div class="product-details">
+                            <span class="product-catagory">Processor</span>
+                            <h4><a href="">Intel i7 12 Gen</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-bottom-details">
+                                <div class="product-price"><small>$96.00</small>$230.99</div>
+                                <div class="product-links">
+                                    <button class="button-cart" style="vertical-align:middle"><span>Add to
+                                            cart</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- mobile view wish-cart-order -->
+    <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#" class="nav__link active-link ">
+                    <i class="mv-down-menu fas fa-home"style="color: #000000;"></i>
+                    <span class="nav__name">Home</span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">
+                    <i class="mv-down-menu fa-regular fa-heart" style="color: #000000;"></i>
+                    <span class="nav__name">Wishlist</span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">
+                    <i class="mv-down-menu fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                    <span class="nav__name">Cart</span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">
+                    <i class="mv-down-menu fa-solid fa-box-open" style="color: #000000;"></i>
+                    <span class="nav__name">Orders</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="sk.js"></script>
+</body>
+
+</html>
